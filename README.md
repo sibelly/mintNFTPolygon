@@ -13,3 +13,16 @@
    ]
 }
 ```
+
+### Docs
+
+- https://wiki.polygon.technology/docs/develop/truffle
+
+
+### Running
+
+```
+npx truflle console
+npx truffle compile
+npx truffle migrate --reset --compile-all --network development
+```

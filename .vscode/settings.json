@@ -2,4 +2,5 @@
   "solidity.remappingsUnix": [
     "@openzeppelin/=node_modules/@openzeppelin/"
 ],
+"solidity.compileUsingRemoteVersion": "latest",
 }
