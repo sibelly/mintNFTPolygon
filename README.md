@@ -22,6 +22,9 @@
 ### Running
 
 ```
+truffle migrate --network polygonTestnet
+
+
 npx truffle dashboard
 
 npx truflle console
