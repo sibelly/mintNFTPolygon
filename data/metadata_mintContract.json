@@ -1,0 +1,15 @@
+{
+  "attributes": [
+      {
+          "trait_type": "Color",
+          "value": "Green"
+      },
+      {
+          "trait_type": "Type",
+          "value": "Text"
+      }
+  ],
+  "description": "Text : Sacrólis",
+  "image": "https://ipfs.io/ipfs/QmXA9EPg6z1JsrqtgNLqLvCdSKYATKx3Ry2L1XP8KhNtVh",
+  "name": "sacróliS"
+}
