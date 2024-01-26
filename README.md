@@ -17,6 +17,7 @@
 ### Docs
 
 - https://wiki.polygon.technology/docs/develop/truffle
+- https://docs.polygonscan.com/v/mumbai-polygonscan/
 
 
 ### Running
@@ -49,11 +50,10 @@ npx truffle exec scripts/mint.js
 
 ### Services Used
 
-https://faucet.polygon.technology/
-
-https://app.pinata.cloud/pinmanager
-
-https://mumbai.polygonscan.com/address/0xf4176dd135dad850ec5150d7809d7ed4b560e3b3 (smart contract from test)
+- https://faucet.polygon.technology/
+- https://app.pinata.cloud/pinmanager
+- https://mumbai.polygonscan.com/address/0xf4176dd135dad850ec5150d7809d7ed4b560e3b3 (smart contract from test)
 
 ### Reference
-https://github.com/EtishaGarg/MintNFT
+
+- https://github.com/EtishaGarg/MintNFT
