@@ -22,7 +22,11 @@
 ### Running
 
 ```
+npx truffle dashboard
+
 npx truflle console
 npx truffle compile
 npx truffle migrate --reset --compile-all --network development
+
+npx truffle exec scripts/mint.js 
 ```
