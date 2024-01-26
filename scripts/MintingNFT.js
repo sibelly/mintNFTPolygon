@@ -6,7 +6,7 @@ const clientURL = `https://rpc-mumbai.maticvigil.com`;
 const provider = new HDWalletProvider(mnemonic,clientURL);
 const web3 = new Web3(provider); 
 
-const data = require('../build/contracts/MyNFT.json');
+const data = require('../build/contracts/mintContract.json');
 const abiArray = data.abi;
 const contract_address = process.env.CONTRACT_ADDRESS;
 
@@ -15,7 +15,7 @@ const deploy = async() =>{
     console.log('Attempting to deploy from account ', accounts[0]);
 
     const contract = await new web3.eth.Contract(abiArray,contract_address);
-    const tokenURI = 'https://ipfs.io/ipfs/QmTzuN4y6Ay31NsSjLfAHD6WhREAwcUaAtBvCrucCb37NG';
+    const tokenURI = 'https://ipfs.io/ipfs/QmUiU7jkviYzz6uaPhMNgf3umpC7z7imtPzah7djDx8uBM';
     await contract.methods.mintNFT(tokenURI).send({from: accounts[0]});
 
     console.log('Yay! NFT minted successfully');
